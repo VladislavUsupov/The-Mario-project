@@ -9,7 +9,7 @@ body{
     height: 100%;
 }
 
-nav {
+.navigation {
     display: block;
     width: 100%;
     margin-top: -20px;
@@ -17,19 +17,19 @@ nav {
     background-color: dimgrey;
 }
 
-.navigation-menu ul {
+.navigation__menu {
     overflow: hidden;
     padding: 0;    
 }
 
-.navigation-menu li {
+.navigation__menu-item {
     display:inline-block;
     float: left;
     width: 25%;    
     padding: 0;   
 }
 
-.navigation-menu a {
+.navigation__menu-item-link {
     display: block;
     padding: 1em;
     color: white;
@@ -40,23 +40,19 @@ nav {
     height:100%;
 }
 
-.navigation-menu p{
+.navigation__menu-item-link-logo{
     margin: 0;
     font-family:'Verdana';
     font-weight:bold;
     font-size: 15pt;
 }
 
-.navigation-menu_li_theme_allotted{   
+.navigation__menu-item-link_theme_allotted{   
     background: #D3D3D3;
     color:antiquewhite;
 }
 
-.navigation-menu__logo{
-    display: block;
-}
-
-.start-game__button{
+.start__button{
     top:50%;
     left: 50%;
     position: absolute;
@@ -75,13 +71,19 @@ nav {
     text-decoration: none;
 }
 
-.about-text{
+.about{
     text-align: center;
+}
+
+.about__text{    
     font-size: 15pt;
     margin: 20px;
 }
 
-.raiting-list {
+.about__image{    
+}
+
+.raitinglist {
     margin: 20px;
     font-family:'Verdana';
     font-weight:bold;
